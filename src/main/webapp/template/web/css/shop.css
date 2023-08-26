@@ -1,0 +1,157 @@
+body {
+    position: relative;
+}
+
+/* .cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    display: none;
+} */
+
+main {
+    position: relative;
+}
+
+.card-body ul li {
+    list-style-type: square;
+}
+
+.card-footer a {
+    width: 200px;
+}
+
+.page-devide span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+
+.active-page {
+    color: red !important;
+    text-decoration: underline;
+}
+
+.filter {
+    position: relative;
+}
+
+.filter i {
+    position: absolute;
+    top: 43px;    
+}
+
+.filter span {
+    font-size: 16;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filter select {
+    width: 302px;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.btn-filter {
+    width: 302px;
+    height: 40px;
+    background-color: rgb(255, 64, 64);
+    color: #fff;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.btn-filter:hover {
+    background-color: rgb(194, 48, 48);
+    transition: 0.3s;
+}
+
+.bi-funnel {
+    color: #fff;
+    position: absolute;
+    top: 92px !important;
+    left: 115px;
+}
+
+.btn-delete-filter {
+    width: 302px;
+    height: 40px;
+    background-color: rgb(81, 81, 81);
+    color: #fff;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.btn-delete-filter:hover {
+    background-color: rgb(51, 51, 51);
+    transition: 0.3s;
+}
+
+.card:hover {
+    border: 1px solid rgb(255, 64, 64);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-devide span:hover {
+    background-color: rgb(255, 64, 64);
+    color: #fff;
+    cursor: pointer;
+}
+
+.page-devide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .buy-card {
+    width: 500px;
+    height: 260px;
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    border-radius: 10px;
+    display: none;
+}
+
+.id-account {
+    width: 480px;
+    height: 50px;
+    background-color: rgb(255, 64, 64);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.id-account h3 {
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.buy-card .card-body li {
+    margin-left: 30px;
+}
+
+.buy-card .card-footer a {
+    width: 200px;
+} */

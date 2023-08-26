@@ -1,0 +1,84 @@
+main {
+    padding-top: 100px;
+    position: relative;
+}
+
+main h4 {
+    display: inline-block;
+    position: absolute;
+    /* margin: 20px 0 0 20px; */
+    font-weight: bold;
+}
+
+.id-account {
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    margin-left: 40px;
+    width: 40%;
+}
+
+.id-account span {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    background-color: lightgray;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.info-row {
+    position: absolute;
+    top: 240px;
+    display: inline-block;
+    width: 605px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 20px;
+}
+
+.info-row ul {
+    list-style-type: none;
+}
+
+.column-left {
+    width: 300px;
+    display: inline-block;
+}
+
+.column-right {
+    width: 300px;
+    display: inline-block;
+}
+
+.price {
+    display: inline-block;
+    top: 310px;
+    margin-left: 20px;
+    border-bottom: 1px solid lightgray;
+    width: 605px;
+    height: 50px;
+}
+
+.price span {
+    padding-left: 30px;
+    font-size: 25px;
+    color: rgb(239, 62, 62);
+}
+
+.btn-pay-add {
+    /* display: flex; */
+    position: absolute;
+    top: 400px;
+    width: 605px;
+    left: 75%;
+    transform: translateX(-25%);
+}
+
+.text-center {
+    display: inline-block;
+}
+
+.text-center a {
+    width: 140px;
+}

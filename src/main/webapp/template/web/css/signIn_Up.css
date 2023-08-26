@@ -1,0 +1,174 @@
+
+/* Begin: Sign In */
+
+.container {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #F8F9FA;
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    }
+
+.checkbox {
+    position: relative;
+}
+
+input {
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-color: rgb(222, 222, 222);
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.title-signin {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.para {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+
+.para span {
+    text-decoration-color: #e5ba64;
+    text-decoration-line: underline;
+    color: #e5ba64;
+    cursor: pointer;
+}
+
+.lb-rmb {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+
+
+.container img {
+width: 50%;
+height: 100%;
+position: absolute;
+/* display: none; */
+z-index: 2;
+/* transform: translateX(100%); */
+transition: 1s;
+}
+
+.signin-form {
+position: absolute;
+top: 50px;
+left: 55%;
+}
+
+#checkboxId {
+display: inline-block;
+}
+
+.btn-signin {
+margin-top: 60px;
+width: 396px;
+height: 50px;
+border-radius: 10px;
+border: none;
+background-color: #e3b04b;
+color: white;
+font-size: 18px;
+font-weight: bold;
+}
+
+.btn-signin:hover {
+background-color: #e5ba64;
+}
+
+.forgot-password {
+position: absolute;
+right: 10px;
+top: 10px;
+font-size: 13px;
+font-weight: bold;
+color: gray;
+}
+
+
+.forgot-password:hover {
+color: #e3b04b;
+}
+
+.signin-form .lb-usn {
+margin-top: 50px;
+}
+
+.signin-form .lb-pw {
+margin-top: 20px;
+}
+
+#checkboxId {
+    margin-top: 10px;
+}
+
+/* End: Sign In */
+
+/* Begin: Sign Up */
+.title-signup {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;    
+}
+
+.signup-form {
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    width: 50%;
+}
+
+.signup-form .fullName {
+    margin-top: 20px;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.lb-email {
+    margin-top: 20px;
+}
+
+.signup-form .lb-usn {
+    margin-top: 20px;
+}
+
+.signup-form .lb-pw {
+    margin-top: 20px;
+}
+
+.btn-signup {
+    margin-top: 30px;
+    width: 396px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e3b04b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-form p {
+    display: inline-block;
+    width: 396px;
+}
+/* End: Sign Up */

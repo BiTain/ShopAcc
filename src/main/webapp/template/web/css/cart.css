@@ -1,0 +1,88 @@
+main {
+    position: relative;
+    padding-top: 100px;
+}
+
+table {
+    border: 1px solid #000;
+    width: 80% !important;
+}
+
+table tr {
+    border-bottom: 1px solid #000;
+}
+
+table td {
+    text-align: center;
+    border-right: 1px solid #000;
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+table a i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 99;
+    top: 100px;
+}
+
+.payment-box {
+    position: absolute;
+    width: 20%;
+    height: 150px;
+    border: 1px solid #000;
+    right: 20px;
+    top: 100px;
+    text-align: center;
+}
+
+.payment-box h3 {
+    font-weight: bold;
+}
+
+.payment-box h4 {
+    padding-top: 10px;
+}
+
+.payment-box .text-center {
+    margin-top: 10px;
+}
+
+.delete a, .pay a, .detail a, .back a {
+    width: 120px;
+}
+
+.delete, .pay, .detail, .back {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.pay:hover {
+    background-color: #0FD186;
+    color: white;
+    border-color: #0FD186;
+}
+
+.delete:hover {
+    background-color: rgb(255, 64, 64);
+    color: white;
+    border-color: rgb(255, 64, 64);
+}
+
+.detail:hover {
+    background-color: #3092FA;
+    color: white;
+    border-color: #3092FA;
+}
+
+.back:hover {
+    background-color: #F36A1C;
+    color: white;
+    border-color: #F36A1C;
+}
+
